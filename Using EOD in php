@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>EOD</title>
+	</head>
+	<body>
+		<?php
+		$name = "Mohammed Shafiq Fata";
+		$age = 65;
+		$address = "19 Hudson Near Acre London NW9 5YL";
+
+		$str = <<<EOD
+		<h1>The customer name is : $name <br>
+		his age is : $age<br>
+		his address is : $address<hr>
+EOD;
+		echo $str;
+		?>
+
+
+	</body>
+</html>
